@@ -9,83 +9,83 @@
     tools:layout_editor_absoluteY="-187dp">
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/imageView1"
         android:layout_width="94dp"
         android:layout_height="128dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
         android:layout_marginBottom="30dp"
         android:onClick="Check"
-        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="94dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="Check"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/imageView1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="94dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="38dp"
+        android:onClick="Check"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="94dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="38dp"
+        android:onClick="Check"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:srcCompat="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="94dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="45dp"
+        android:onClick="Check"
+        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="94dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="45dp"
+        android:onClick="Check"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:srcCompat="@drawable/card" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="94dp"
-        android:layout_height="128dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="30dp"
-        android:onClick="Check"
-        app:layout_constraintBottom_toTopOf="@+id/imageView12"
-        app:layout_constraintEnd_toStartOf="@+id/imageView17"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/card" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="94dp"
-        android:layout_height="128dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="38dp"
-        android:onClick="Check"
-        app:layout_constraintBottom_toTopOf="@+id/imageView13"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/card" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="94dp"
-        android:layout_height="128dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="38dp"
-        android:onClick="Check"
-        app:layout_constraintBottom_toTopOf="@+id/imageView14"
-        app:layout_constraintEnd_toStartOf="@+id/imageView18"
-        app:layout_constraintStart_toEndOf="@+id/imageView11"
-        app:srcCompat="@drawable/card" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="94dp"
-        android:layout_height="128dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="45dp"
-        android:onClick="Check"
-        app:layout_constraintBottom_toTopOf="@+id/imageView15"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/card" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="94dp"
-        android:layout_height="128dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="45dp"
-        android:onClick="Check"
-        app:layout_constraintBottom_toTopOf="@+id/imageView16"
-        app:layout_constraintEnd_toStartOf="@+id/imageView19"
-        app:layout_constraintStart_toEndOf="@+id/imageView13"
-        app:srcCompat="@drawable/card" />
-
-    <ImageView
-        android:id="@+id/imageView15"
         android:layout_width="94dp"
         android:layout_height="128dp"
         android:layout_marginStart="28dp"
@@ -96,7 +96,7 @@
         app:srcCompat="@drawable/card" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/imageView11"
         android:layout_width="94dp"
         android:layout_height="128dp"
         android:layout_marginStart="49dp"
@@ -104,47 +104,47 @@
         android:layout_marginBottom="78dp"
         android:onClick="Check"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView20"
-        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintEnd_toStartOf="@+id/imageView12"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
         app:srcCompat="@drawable/card" />
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/imageView3"
         android:layout_width="94dp"
         android:layout_height="128dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="30dp"
         android:onClick="Check"
-        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/card" />
 
     <ImageView
-        android:id="@+id/imageView18"
+        android:id="@+id/imageView6"
         android:layout_width="94dp"
         android:layout_height="128dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="38dp"
         android:onClick="Check"
-        app:layout_constraintBottom_toTopOf="@+id/imageView19"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/card" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/imageView9"
         android:layout_width="94dp"
         android:layout_height="128dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="45dp"
         android:onClick="Check"
-        app:layout_constraintBottom_toTopOf="@+id/imageView20"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/card" />
 
     <ImageView
-        android:id="@+id/imageView20"
+        android:id="@+id/imageView12"
         android:layout_width="94dp"
         android:layout_height="128dp"
         android:layout_marginEnd="16dp"

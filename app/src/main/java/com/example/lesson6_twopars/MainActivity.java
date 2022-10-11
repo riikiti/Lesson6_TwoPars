@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Check(View view) {
-
+Board board = new Board();
+board.getBoard();
     }
 }

@@ -5,6 +5,10 @@ public class Couples {
     private int secondCard; // id picture
     private boolean equal;
 
+    public Couples() {
+
+    }
+
     public int getFirstCard() {
         return firstCard;
     }
