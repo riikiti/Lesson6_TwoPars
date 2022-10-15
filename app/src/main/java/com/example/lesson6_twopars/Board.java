@@ -12,29 +12,27 @@ public class Board {
 
     public Board() {
         int tempNumber;
-        int add = 0;
         int i = 0, j = 0;
-        int finish =0;
         while (this.board[i][j] == 0) {
             tempNumber = (int) (Math.random() * 12);
             if (cards[tempNumber] != 0) {
                 this.board[i][j] = cards[tempNumber];
                 cards[tempNumber] = 0;
             } else {
-                tempNumber = 0;
-              while (cards[add]==0){
-                  add++;
-              }
-                tempNumber = add;
+                int ii = 0;
+                while (cards[ii] == 0) {
+                    ii++;
+                    tempNumber = ii;
+                }
                 this.board[i][j] = cards[tempNumber];
                 cards[tempNumber] = 0;
             }
             j++;
-            if (j>3){
+            if (j == 3) {
                 i++;
-                j=0;
+                j = 0;
             }
-            if (i>3){
+            if (i == 4) {
                 break;
             }
         }
