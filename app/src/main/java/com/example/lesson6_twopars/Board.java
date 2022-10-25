@@ -8,7 +8,7 @@ public class Board {
     private boolean winOrLose;
     private Couples[] openCouples;
     private int[][] board = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
-    private int[] cards = {1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6};
+    private int[] cards = {0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5};
 
     public Board() {
         int tempNumber;
@@ -36,6 +36,9 @@ public class Board {
                 break;
             }
         }
+
+
+
     }
 
     public int[][] getBoard() {
